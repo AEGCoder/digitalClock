@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Shadows Into Light", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  background-image: url(fern-7721323_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 14rem;
+  margin-bottom: 5rem;
+  background: #cfcf13;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #cfcf13 9%,
+    #1dcf11 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container .clock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 9rem;
+  width: 50rem;
+  height: 8rem;
+  background: #008080;
+  background: linear-gradient(
+    to left,
+    #008080 0%,
+    #ffffff 25%,
+    #05c1ff 50%,
+    #ffffff 75%,
+    #005757 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20rem;
+  text-shadow: -10px 5px 12px #19cec0;
+}
